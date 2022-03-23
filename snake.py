@@ -61,8 +61,8 @@ def move():
 
 def mover_comida():
     
-    food.x = randrange(-15, 15) * 10
-    food.y = randrange(-15, 15) * 10
+    food.x = random.randrange(-15, 15) * 10
+    food.y = random.randrange(-15, 15) * 10
 
     ontimer(mover_comida, 2000)
     
